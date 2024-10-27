@@ -113,3 +113,83 @@ The `Presentation` layer is responsible for the user interface and handling user
 
 ### main.dart
 The main entry point of the application. It initializes the app with providers for each BLoC, sets up the theme, and loads the `HomePage`.
+
+---
+
+## Installation and Setup
+
+To set up and run this project locally, follow these steps:
+
+### Prerequisites
+
+Ensure you have the following installed on your machine:
+
+1. **Flutter SDK**: [Install Flutter](https://flutter.dev/docs/get-started/install) and set up the environment variables.
+2. **Dart**: Comes with Flutter, but ensure it's correctly configured.
+3. **Android Studio or VS Code** (recommended): IDE with Flutter and Dart plugins for development.
+4. **API Server**: Ensure the backend server is running or accessible. If using a local API, make sure it’s started before running the app.
+
+### Clone the Repository
+
+1. Open a terminal or command prompt.
+2. Clone this repository by running:
+   ```bash
+    git clone https://github.com/YourUsername/Tractian_Challenge.git
+    cd Tractian_Challenge
+### Install Dependencies
+
+Inside the project directory, install the necessary packages by running:
+
+1. Open a terminal or command prompt.
+2. Clone this repository by running:
+   ```bash
+    flutter pub get
+    ```
+    
+### Configure API Endpoints
+
+If using a custom or local API, update the API base URL in the configuration files.
+Open `lib/core/config/api_constants.dart` and update `baseUrl`:
+
+1. Open a terminal or command prompt.
+2. Clone this repository by running:
+   ```bash
+     class ApiConstants { 
+        static const String baseUrl = 'http://127.0.0.1:5000';  // or your live API URL
+     }
+   ```
+   - You can test it using my api: `https://api-tractian-1.onrender.com` , but make sure it's available online first.
+   
+ 
+### Install Dependencies
+1. Connect a device or start an emulator:
+-   Ensure your Android or iOS device is connected, or start an emulator from Android Studio or your device manager.
+2. Run the App:
+- Execute the following command in the terminal to start the app:
+```bash
+   flutter run
+   ```
+- For specific platforms, you can run:
+```bash
+    flutter run -d android  # for Android
+    flutter run -d ios      # for iOS
+   ```
+   
+### Troubleshooting
+- Dependency Issues: If you encounter errors related to packages, try running:
+```bash
+    flutter pub get
+    flutter clean
+    flutter pub get
+   ```
+   - Dependency Issues: If you encounter errors related to packages, try running:
+```bash
+    flutter pub get
+    flutter clean
+    flutter pub get
+   ```
+- **API Issues:** Ensure the API server is accessible. If running locally, confirm the API server is started and the base URL matches the configuration.
+- **Platform-Specific Errors:** Check Flutter doctor for any environment-specific issues:
+```bash
+    flutter doctor
+   ```
