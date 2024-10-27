@@ -116,6 +116,15 @@ The main entry point of the application. It initializes the app with providers f
 
 ---
 
+## Video demonstration
+- a
+
+
+## Future improvements
+- See the [Future improvements section](improvements.md) for more details.
+
+---
+
 ## Installation and Setup
 
 To set up and run this project locally, follow these steps:
