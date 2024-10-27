@@ -144,7 +144,7 @@ Ensure you have the following installed on your machine:
 1. Open a terminal or command prompt.
 2. Clone this repository by running:
    ```bash
-    git clone https://github.com/YourUsername/Tractian_Challenge.git
+    git clone https://github.com/LS-MyProjects/Tractian_Challenge.git
     cd Tractian_Challenge
 ### Install Dependencies
 
