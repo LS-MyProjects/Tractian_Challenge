@@ -62,7 +62,7 @@ The `Data` layer manages data retrieval from the API. It includes data sources, 
   - `locations_repository_impl.dart`: Implements `LocationsRepository`, handling location data retrieval and manipulation.
 
 - **Detailed information**:
-  - See the [Data layer documentation](domain.md) for more details.
+  - See the [Data layer documentation](data.md) for more details.
 
 #### domain
 The `Domain` layer represents the core business logic of the application, independent of any external dependencies like APIs or Flutter widgets. It contains entities, repositories (abstract), and use cases.
