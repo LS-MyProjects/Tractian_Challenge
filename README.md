@@ -117,7 +117,8 @@ The main entry point of the application. It initializes the app with providers f
 ---
 
 ## Video demonstration
-- a
+- https://github.com/user-attachments/assets/5c6bb957-0786-4140-85d3-dbcb37864c03
+
 
 
 ## Future improvements
