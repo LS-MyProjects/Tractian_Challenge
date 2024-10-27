@@ -109,7 +109,7 @@ The `Presentation` layer is responsible for the user interface and handling user
   - `search_widget.dart`: A search input field widget.
   
 - **Detailed information**:
-  - See the [Presentation layer documentation](domain.md) for more details.
+  - See the [Presentation layer documentation](presentation.md) for more details.
 
 ### main.dart
 The main entry point of the application. It initializes the app with providers for each BLoC, sets up the theme, and loads the `HomePage`.
